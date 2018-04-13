@@ -1,8 +1,8 @@
 import unittest
-
 from Tests.RegistrationPageTests import RegistrationPageTests
 from Tests.SignOnPageTests import SignOnPageTests
 from Tests.HomePageTests import HomePageTests
+
 
 # Get all tests from SignOnTests and RegistrationTests classes
 registration_tests = unittest.TestLoader().loadTestsFromTestCase(RegistrationPageTests)
